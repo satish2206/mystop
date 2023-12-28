@@ -84,7 +84,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>StopWatch</h1>
+      <h1>Stopwatch</h1>
       <p>{format(timer)}</p>
       <button onClick={toggle}>{activate ? "Stop" : "Start"}</button>
       <button onClick={reset}>Reset</button>
