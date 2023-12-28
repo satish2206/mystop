@@ -55,7 +55,7 @@ import { useEffect, useState } from "react";
 const format = (timer) => {
   const mins = Math.floor(timer / 60);
   timer %= 60;
-  return `Time:${mins}:${timer < 10 ? "0" : ""}${timer}`;
+  return `Time: ${mins}:${timer < 10 ? "0" : ""}${timer}`;
 };
 export default function App() {
   const [activate, setActivate] = useState(false);
